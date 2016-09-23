@@ -6,6 +6,12 @@ eureka:
       defaultZone: http://localhost:8010/eureka/,http://localhost:8011/eureka/,http://localhost:8012/eureka/,http://localhost:8013/eureka/
 server:
   port: ${PORT:${SERVER_PORT:0}}   # Select any available port if neither port nor server port are specified.
+  
+service_subject  :  server-subject-words
+service_verb  :  server-verb-words
+service_article  :  server-article-words
+service_adjective  :  server-adjective-words
+service_noun  :  server-noun-words
 
 ---
 spring:
