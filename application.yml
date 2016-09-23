@@ -10,24 +10,35 @@ server:
 ---
 spring:
   profiles: subject
+  application:
+    name  :  server-subject-words
 words: I,You,He,She,It
+
 
 ---
 spring:
   profiles: verb
+  application:
+    name  :  server-verb-words
 words: ran,knew,had,saw,bought
 
 ---
 spring:
   profiles: article
+  application:
+    name  :  server-article-words
 words: a,the
 
 ---
 spring:
   profiles: adjective
+  application:
+    name  :  server-adjective-words
 words: reasonable,leaky,suspicious,ordinary,unlikely
 
 ---
 spring:
   profiles: noun
+  application:
+    name  :  server-noun-words
 words: boat,book,vote,seat,backpack,partition,groundhog       
